@@ -2,7 +2,7 @@
 var userName = prompt("What is your name?");
 
 //grab the user input starting from second character in the string, and make the characters lower case; then store this in a varbale called loweruserName
-loweruserName = userName.slice(1).toLowerCase();
+loweruserName = userName.slice(1, userName.length).toLowerCase();
 
 //grab the first character of the user input and set it to upper case. Then, store this value in a variable named upperuserName
 upperuserName = userName.slice(0,1).toUpperCase();
