@@ -1,2 +1,1 @@
-# Twitter-Code
-Replicating characters left feature in twitter
+I am using this to hone my Javascript skills
