@@ -6,5 +6,11 @@ var name2 = prompt("Enter name");
 n = Math.random() * 100;
 // Now we'll want to clean up results. Use Math.floor to ensure whole numbers from outputs and add 1 to get 1-100 results.
 loveScore = Math.floor(n) + 1;
-// get output
-alert("You love score this " + loveScore + "%");
+//get output
+if (loveScore >= 75){
+    alert("Compatible! Your love score is " + loveScore + "%")
+} else if (loveScore <= 40){
+    alert("Your love score is " + loveScore + ". Find someone else...")
+} else{
+    alert(loveScore + "%." + " Your love score is average.")
+}
