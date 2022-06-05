@@ -1,0 +1,16 @@
+// First we set function called isLeap and using year as input
+function isLeap(year) {
+    // continue using if else conditions to identifiy whether an inputted year is in fact a leap year or not a leap year
+    if (year%4 === 0 && year%100 !== 0 ){
+        return("Leap year.");
+    }
+    
+    else if (year%100 === 0 && year%400 === 0){
+        return("Leap year.");
+    }
+    else {
+        return("Not leap year.");
+    }
+
+leapYear(1989); //This is our function input
+}
