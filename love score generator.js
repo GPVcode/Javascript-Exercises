@@ -1,0 +1,6 @@
+var name1 = prompt("Type first person's name"); //User input
+var name2 = prompt("Type second person's name"); //User input
+var n = Math.random(); //get random numbers between 0-.999...
+n = n * 100; // scale random results to 0-99.999...
+loveScore = Math.floor(n) + 1; // make sure numbers are whole numbers using Math.floor, and then ensuring the numbers are 1-100 by adding the 1
+alert("Your love score is " + loveScore);
