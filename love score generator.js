@@ -1,6 +1,10 @@
-var name1 = prompt("Type first person's name"); //User input
-var name2 = prompt("Type second person's name"); //User input
-var n = Math.random(); //get random numbers between 0-.999...
-n = n * 100; // scale random results to 0-99.999...
-loveScore = Math.floor(n) + 1; // make sure numbers are whole numbers using Math.floor, and then ensuring the numbers are 1-100 by adding the 1
-alert("Your love score is " + loveScore);
+// Love Calculator
+// first we receive user inpu. In this case we ask for two names
+var name1 = prompt("Enter name");
+var name2 = prompt("Enter name");
+// Then we generate random numbers using Math.random and scale the results up to 100
+n = Math.random() * 100;
+// Now we'll want to clean up results. Use Math.floor to ensure whole numbers from outputs and add 1 to get 1-100 results.
+loveScore = Math.floor(n) + 1;
+// get output
+alert("You love score this " + loveScore);
