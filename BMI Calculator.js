@@ -12,20 +12,15 @@ myBMI(300, 60);
 
 */
 
-//The follow code is my work in response to a prompt
 
+
+//The follow code is my work in response to a prompt
 //The first parameter should be the weight and the second should be the height.
 function bmiCalculator(weight, height){
+    // Storing the function in a variable named bmi
+    var bmi = bmiCalculator(weight, height);
     //returning the calculation of BMI and rounding the answer.
     return Math.round(weight/(height*height));
+    //another way to write this is: return Math.round(weight/Math.pow(height,2);
 }
-// Storing the function in a variable named bmi
-var bmi = bmiCalculator(weight, height);
 
-/* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
-
-var bmi = bmiCalculator(65, 1.8); 
-
-bmi should equal 20 when it's rounded to the nearest whole number.
-
-*/
