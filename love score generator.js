@@ -7,4 +7,4 @@ n = Math.random() * 100;
 // Now we'll want to clean up results. Use Math.floor to ensure whole numbers from outputs and add 1 to get 1-100 results.
 loveScore = Math.floor(n) + 1;
 // get output
-alert("You love score this " + loveScore);
+alert("You love score this " + loveScore + "%");
